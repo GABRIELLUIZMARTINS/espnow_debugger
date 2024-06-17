@@ -11,9 +11,9 @@ void task_example(void *pvParameter)
     {
         srand((unsigned) time(NULL));
         Data_t data;
-        data.Data_1 = rand() %10; 
-        data.Data_2 = rand() %100; 
-        data.Data_3 = rand() %1000; 
+        data.value_1 = rand() %10; 
+        data.value_2 = rand() %100; 
+        data.value_3 = rand() %1000; 
         
         send_espnow(data);
 

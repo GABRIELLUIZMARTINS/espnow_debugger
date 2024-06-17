@@ -13,9 +13,9 @@
 // Structure to store teh data to be sent
 typedef struct
 {
-    uint32_t Data_1;
-    uint32_t Data_2;
-    uint32_t Data_3;
+    uint32_t value_1;
+    uint32_t value_2;
+    uint32_t value_3;
 } Data_t;
 
 esp_err_t wifi_init();
