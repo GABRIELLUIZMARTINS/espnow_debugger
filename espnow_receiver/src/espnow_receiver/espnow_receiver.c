@@ -35,3 +35,8 @@ void on_data_received(const uint8_t *mac_addr, const uint8_t *data, int len)
     vTaskDelay(pdMS_TO_TICKS(1/1000)); // Delay 1 microsegund
 
 }
+
+esp_err_t esp_now_register()
+{
+    return esp_now_register_recv_cb(on_data_received);
+}

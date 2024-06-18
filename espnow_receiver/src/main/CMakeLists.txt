@@ -1,3 +1,3 @@
-idf_component_register(SRCS "espnow_receiver_main.c"
+idf_component_register(SRCS "main.c"
                     INCLUDE_DIRS "."
                     REQUIRES nvs_flash espnow_receiver)

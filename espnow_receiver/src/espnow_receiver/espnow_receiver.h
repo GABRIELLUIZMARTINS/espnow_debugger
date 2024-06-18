@@ -18,6 +18,6 @@ typedef struct
 static const char *TAG = "espnow_recv";
 
 esp_err_t wifi_init();
-void on_data_received(const uint8_t *mac_addr, const uint8_t *data, int len);
+esp_err_t esp_now_register();
 
 #endif
