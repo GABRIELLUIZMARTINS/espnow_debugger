@@ -1,5 +1,11 @@
-# espnow_debugger
-# espnow_debugger
+# ESP-NOW Debugger
 
-Tanto o receiver quanto o sender precisam ter os mesmos dados 
-Add comentarios que os Data_t são exemplos
+    Here we have the debugger implementation with the ESP-NOW protocol. There are two folders, one with the [espnow_receiver](espnow_receiver) module implementation and the other with the [espnow_sender](espnow_sender) module implementation.
+
+## ESP-NOW Receiver
+
+    ESP-NOW Receiver
+
+## ESP-NOW Sender
+
+    ESP-NOW Sender
